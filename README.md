@@ -1,33 +1,38 @@
-# Pre-work - *TipUP*
+# Project 1 - *Nicole Alexander*
 
-**TipUP** is a tip calculator application for iOS.
+**Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Submitted by: **Nicole Alexander**
-
-Time spent: **24** hours spent in total
+Time spent: **20** hours spent in total
 
 ## User Stories
 
-The following **required** functionality is complete:
+The following **required** functionality is completed:
 
-* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [X] Settings page to change the default tip percentage.
+- [x] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
+- [x] User can view movie details by tapping on a cell.
+- [x] User sees loading state while waiting for the API.
+- [x] User sees an error message when there is a network error.
+- [x] User can pull to refresh the movie list.
 
 The following **optional** features are implemented:
-* [X] UI animations
-* [X] Remembering the bill amount across app restarts (if <10mins)
-* [X] Using locale-specific currency and currency thousands separators.
-* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+
+- [x] Add a tab bar for **Now Playing** and **Top Rated** movies.
+- [ ] Implement segmented control to switch between list view and grid view.
+- [ ] Add a search bar.
+- [ ] All images fade in.
+- [ ] For the large poster, load the low-res image first, switch to high-res when complete.
+- [ ] Customize the highlight and selection effect of the cell.
+- [ ] Customize the navigation bar.
 
 The following **additional** features are implemented:
 
-- [X] List anything else that you can get done to improve the app functionality! A currency setting for Dollars and Euros
+- [ ] List anything else that you can get done to improve the app functionality!
 
-## Video Walkthrough 
+## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/tresjoliebabe/code-dump/blob/master/tipUP-3.0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -49,4 +54,4 @@ Describe any challenges encountered while building the app.
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
-    limitations under the License√https://github.com/tresjoliebabe/code-dump/blob/master/tipUP-3.0.gif.
+    limitations under the License.
